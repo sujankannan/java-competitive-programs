@@ -13,7 +13,7 @@ public class CollectionnRemove {
     public static void main(String[] args) {
 
 //using ArrayList
-        List <String> o=new <String>ArrayList();
+        List <String> o=new ArrayList<String>();
         o.add("coding");
         o.add("is");
         o.add("fun");
@@ -22,7 +22,7 @@ public class CollectionnRemove {
         System.out.println("the Modified of ArrayList is statement :"+o);
 
 //using LinkedList
-        List <String> l=new <String>LinkedList();
+        List <String> l=new LinkedList<String>();
         l.add("coding");
         l.add("is");
         l.add("fun");
